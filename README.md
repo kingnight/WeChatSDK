@@ -1,17 +1,29 @@
 # WeChatSDK
-Swift version of WeChat SDK.
+Swift XCFrameowrk of WeChat SDK.
+
+Generate Swift Package Manager Binary Format 
 
 # SDK Version
-[1.8.6.1](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&token=&lang=zh_CN)
+[1.9.6版本，不包含支付功能](https://developers.weixin.qq.com/doc/oplatform/Downloads/iOS_Resource.html)
 
 ## How To Get Started
+Build Setting changed for building XCFrameowrk , https://help.apple.com/xcode/mac/11.4/#/dev544efab96
+
 ### Carthage
+
 Specify "WeChatSDK" in your ```Cartfile```:
 ```ogdl 
 github "teambition/WeChatSDK"
 ```
 
+### Swift Package Manager
+
+```
+output/WeChatSDK
+```
+
 ### Usage
+
 See [WeChatSDK Integration Guide](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=1417694084&token=&lang=zh_CN)
 
 ### For iOS 9.0+

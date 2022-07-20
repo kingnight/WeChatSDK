@@ -1,0 +1,11 @@
+framework module WeChatSDK {
+  umbrella header "WeChatSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module WeChatSDK.Swift {
+    header "WeChatSDK-Swift.h"
+    requires objc
+}

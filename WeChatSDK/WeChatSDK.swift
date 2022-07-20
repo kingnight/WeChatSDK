@@ -11,7 +11,7 @@ import Foundation
 // The functions in "WXApi" must be called in this framework at least once, otherwise the framework will not work outside this module.
 // So most of the functions in class "WXApi" are encapsulated to struct "WeChatSDK", although it seems like redundant.
 // Therefore, you can regard this struct as a convenient way to use WeChat apis.
-public struct WeChatSDK {
+public struct WeChat_SDK {
     /// 检查用户是否安装微信，微信已安装为true，未安装为false
     public static var isWeChatInstalled: Bool {
         return WXApi.isWXAppInstalled()
